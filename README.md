@@ -79,5 +79,3 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-This `README.md` file includes an overview of the project, instructions for setup and usage, and images to illustrate the process. Make sure the image paths are correct and the images are uploaded to the appropriate directories in your repository.
