@@ -1,0 +1,35 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Image and video files
+*.jpg
+*.png
+*.mp4
+
+# Output directories
+buffers/
+images/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Virtual environment
+venv/
+

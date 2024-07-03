@@ -1,0 +1,4 @@
+azure-cognitiveservices-vision-customvision
+requests
+opencv-python
+pillow
