@@ -1,6 +1,3 @@
-Here is the final `README.md` file for your GitHub repository:
-
-```markdown
 # Underwater Trash Detection
 
 This project focuses on detecting underwater trash using a stationary camera. The detection process involves collecting and preparing data, extracting trash from video frames, and recreating the output video with bounding boxes around detected trash objects.
