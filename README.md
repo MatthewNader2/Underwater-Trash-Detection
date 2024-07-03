@@ -23,21 +23,20 @@ We used the Trash-ICRA19 dataset, labeling data on fish and trash. The data was 
 ## Data Preparation
 The data was pulled using Google Drive API and transferred to a custom vision service. We trained the data and assigned regions to the objects.
 
-![Data Preparation Flow](buffers/f3.jpg)
+
 
 ## Trash Detection
 The detection process involves fetching the video URL, cutting it into frames, and passing frames to a custom vision service to detect trash objects. The service returns bounding boxes around detected trash objects, which are then drawn on the frames.
 
+![Data Preparation Flow](buffers/f3.jpg)
 ![Sample Output 1](buffers/f1.jpg)
-*Detected trash with bounding box*
-
 ![Sample Output 2](buffers/f2.jpg)
-*Detected trash with bounding box*
+![Example of Detected Trash Object](buffers/f4.jpg)
+
 
 ## Video Processing
 After processing the frames, they are stacked again to recreate the output video with detected trash objects.
 
-![Example of Detected Trash Object](buffers/f4.jpg)
 
 ## Lessons Learned
 We faced challenges with subscription quotas and had to use multiple accounts to complete the task.
